@@ -1,0 +1,56 @@
+body {
+    background-image: url(img/fondo.jpg);
+    background-size: cover; /*recorta la imagen segun tamaño del dispositivo*/
+    background-attachment: fixed;
+}
+
+.modal-content {
+    background-color: black;
+    opacity: .85;
+    padding: 0 10px;    
+}
+
+.seccionPrincipal {
+    margin: 0 auto; /*centra toda la caja*/
+    margin-top: 35%;
+    padding: 0;
+}
+
+/* Sube la foto usuario, se sale del recuadro  */
+.user-img {
+    margin-top: -50px;
+    margin-bottom: 26px;
+}
+
+/* Le da tamaño a la foto usuario */
+.user-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 2px 27px 0px rgba(230,230,16,1);
+}
+
+.form-group input {
+    height: 42px;
+    font-size: 18px;
+    border: none;   
+    border-radius: 5px;
+}
+
+button {
+    width: 60%;
+}
+
+button:hover {
+    background-color: rgb(218, 33, 33) !important;
+    border: 2px solid white !important;
+}
+
+
+
+
+
+
+
+
